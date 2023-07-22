@@ -1,3 +1,12 @@
+/* CUSTOM PROPS */
+:root {
+  --body-bg:#F1F4FF;
+  --green:#4dc490;
+  --purple:#655af2;
+  --red:#f03535;
+  --text-color:#000;
+}
+
 /* GLOBAL STYLES */
 
 html {
@@ -22,7 +31,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
-  color: #222;
+  color: var(--text-color);
 }
 
 img {
